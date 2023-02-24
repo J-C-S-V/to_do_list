@@ -1,1 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+body {
+  background: linear-gradient(to right, rgb(69, 31, 149), rgb(174, 174, 15));
+}
