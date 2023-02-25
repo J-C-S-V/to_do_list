@@ -1,0 +1,25 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+.task {
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 200px;
+  justify-content: space-around;
+  padding: 2px 5px;
+  border: 1px solid black;
+}
+
+.task__icon {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.task.completed {
+  background-color: violet;
+  text-decoration: line-through;
+}

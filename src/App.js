@@ -1,10 +1,14 @@
 import './App.css';
+import { Task } from './components/tasks.jsx';
+import './css/tasks.css';
 
 function App() {
   return (
     <div className="app">
       <h1 className="app__header">To do list</h1>
-      <main className="app__content"></main>
+      <main className="app__content">
+        <Task text="Aprender React" />
+      </main>
       <footer className="footer">
         <ul className="footer__ul">
           <li className="footer__li">All</li>
