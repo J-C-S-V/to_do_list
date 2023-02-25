@@ -1,0 +1,11 @@
+.form__ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.form__input {
+  min-width: 300px;
+}
