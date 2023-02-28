@@ -1,28 +1,17 @@
+import { useState } from 'react';
 import './App.css';
-import { Task } from './components/tasks.jsx';
-import './css/tasks.css';
-// import { Form } from './components/form.jsx';
-import './css/form.css';
-import { Main } from './components/main.jsx';
-import './css/main.css';
+import { ListaDeTareas } from './components/ListaDeTareas.jsx';
 
 function App() {
+  const tareas = useState(0);
+  console.log(tareas);
+
   return (
-    <div className="app">
-      <h1 className="app__header">To do list</h1>
-      {/* <main className="app__content"> */}
-      <Main />
-      {/* <Task text="Aprender React" /> */}
-      {/* </main> */}
-      <footer className="footer">
-        <ul className="footer__ul">
-          <li className="footer__li">All</li>
-          <li className="footer__li">All</li>
-          <li className="footer__li">All</li>
-          <li className="footer__li">All</li>
-          <li className="footer__li">All</li>
-        </ul>
-      </footer>
+    <div className="aplicacion-tareas">
+      <div className="tareas-lista-principal">
+        <h1>Mis tareas</h1>
+        <ListaDeTareas />
+      </div>
     </div>
   );
 }

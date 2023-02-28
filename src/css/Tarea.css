@@ -19,7 +19,7 @@
   margin-left: auto;
 }
 
-.task.completed {
+.tarea-contenedor.completada {
   background-color: violet;
   text-decoration: line-through;
 }
