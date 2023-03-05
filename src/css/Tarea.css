@@ -23,3 +23,7 @@
   background-color: violet;
   text-decoration: line-through;
 }
+
+.completada {
+  background-color: yellow;
+}
